@@ -4,6 +4,8 @@
 
 ## challange2
 
+Page de test pour le challenge 2 : http://localhost:8080/mvc-simple/challenge
+
 1. test avec 5000 thread de 100 boucles appelant la page http://localhost:8080/mvc-simple/challenge . rapidement, certaines requetes
 font des java.net.SocketException: Socket closed. et java.net.NoRouteToHostException: Cannot assign requested address (Address not available)
 c'est la limite de port que le serveur peut ouvrir qui crée ce problème.
